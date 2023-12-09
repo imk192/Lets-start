@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #ccc;
+}
+
+li {
+    text-align: left;
+    font-size: 2em;
+}
+
+.btnSuccess {
+    background-color: lightgreen;
+    color: white;
+}
+
+.btnSuccess:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.btnWarning {
+    background-color: lightsalmon;
+    color: black;
+}
+
+.btnWarning:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.btnDanger {
+    background-color: lightcoral;
+    color: white;
+}
+
+.btnDanger:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.createBtn {
+    cursor: pointer;
+    width: 99.9vw;
+    height: 50px;
+    font-size: 2em;
+}
+
+.form {
+    width: 99.9vw;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+#textIn {
+    position: absolute;
+    width: 90vw;
+}
+
+#btns {
+    position: absolute;
+    width: 10мw;
+    right: 0;
+}
+
+.listGroup {
+    padding-bottom: 10px;;
+    
+}
+
+.text-decoration-line-through {
+    text-decoration-line: line-through;
+}
